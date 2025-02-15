@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto; /* Prevent vertical scrolling */
+    height: 100vh;      /* Set height to the viewport */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  @media screen and (max-width: 440px ){
+    .navbar{
+      padding-left: 30px;
+      padding-right: 30px;
+    }    
+  }
+  @media screen and (max-width: 200px ){
+    .navbar{
+      padding-left: 20px;
+      padding-right: 20px;
+    }    
+  }
+
+  @media screen and (min-width: 200px ) and (max-width: 1024){
+    .logo{
+      height: 8;
+      width: 8;
+    }    
+  }
