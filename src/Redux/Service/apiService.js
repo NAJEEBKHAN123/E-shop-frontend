@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/products'; // Replace with your API URL
+const API_URL = 'https://e-shop-backend-delta.vercel.app/api/products'; // Replace with your API URL
 
 // Function to get the auth token (you can store it in localStorage or cookies)
 const getAuthToken = () => localStorage.getItem('token'); // Replace with your method of retrieving the token
